@@ -22,10 +22,8 @@ Note that loci with multiple alternative alleles are broken up into separate row
 
 Unavailable data is denoted `NA`.
 
-Run command,
+CLI run command,
 
 ```bash
 python3 tempus_challenge.py
 ```
-
-Link to the repo <LINK>.
