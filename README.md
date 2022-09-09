@@ -18,7 +18,9 @@ Data is retrievd from the API in JSON format and all data is written to the outp
 10. variant effect
 11. minor allele frequency
 
-Note that loci with multiple alternative alleles are broken up into separate rows. Unavailable data is denoted 'NA'.
+Note that loci with multiple alternative alleles are broken up into separate rows.
+
+Unavailable data is denoted `NA`.
 
 Run command,
 
