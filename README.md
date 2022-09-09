@@ -1,6 +1,10 @@
 ## Tempus Challenge
 
-The relevant data is read from *test_vcf_data.txt*. For each variant, the variant IDs are built in the HGVS sequence variant nomenclature format and submitted in query blocks of 300 to the VEP HGVS API. This data is retrievd in JSON format and all data is written to the output file, *variants.tsv*, contains the following fields,
+The relevant data is read from *test_vcf_data.txt*.
+
+For each variant, the variant IDs are built in HGVS sequence variant nomenclature format and submitted in query blocks of 300 to the VEP HGVS API.
+
+Data is retrievd from the API in JSON format and all data is written to the output file, *variants.tsv*, containing the following fields,
 
 1. chromosome
 2. position
