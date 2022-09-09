@@ -4,7 +4,7 @@ The relevant data is read from *test_vcf_data.txt*.
 
 For each variant, the variant IDs are built in HGVS sequence variant nomenclature format and submitted in query blocks of 300 to the VEP HGVS API.
 
-Data is retrievd from the API in JSON format and all data is written to the output file, *variants.tsv*, containing the following fields,
+Data is retrievd from the API in JSON format, processed, and then written to the output file, *variants.tsv*, which contains the following fields,
 
 1. chromosome
 2. position
